@@ -15,3 +15,20 @@ public:
     return dp[n-1];
   };
 };
+
+//
+
+class Solution {
+public:
+  int jump(int A[], int n) {
+    int f = 0, r = 0;
+    for (int i = 0; i < n && f < n-1; ) {
+      int g = 0;
+      for (; i <= f; i++)
+        g = max(g, i+A[i]);
+      r++;
+      f = g;
+    }
+    return r;
+  }
+};

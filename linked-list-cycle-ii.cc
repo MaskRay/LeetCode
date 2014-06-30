@@ -1,3 +1,5 @@
+// Brent's cycle detection
+
 class Solution {
 public:
   ListNode *detectCycle(ListNode *head) {

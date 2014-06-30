@@ -1,33 +1,5 @@
-#include <cstdio>
-#include <cctype>
-#include <stack>
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
-using namespace std;
-#define FOR(i, a, b) for (__typeof(b) i = (a); i < (b); i++)
+#define FOR(i, a, b) for (int(b) i = (a); i < (b); i++)
 #define REP(i, n) FOR(i, 0, n)
-
-#include <list>
-#include <map>
-
-struct Point
-{
-  int x;
-  int y;
-  Point() : x(0), y(0) {}
-  Point(int a, int b) : x(a), y(b) {}
-};
-
-#define FOR(i, a, b) for (__typeof(b) i = (a); i < (b); i++)
-#define REP(i, n) FOR(i, 0, n)
-
-struct ListNode {
-     int val;
-     ListNode *next;
-     ListNode(int x) : val(x), next(NULL) {}
- };
 
 class Solution {
 public:
@@ -49,18 +21,3 @@ public:
       return head;
     }
 };
-
-int main()
-{
-  ListNode *x = NULL;
-  REP(i, 10) {
-    ListNode *y = new ListNode(i);
-    y->next = x;
-    x = y;
-  }
-  x = Solution().insertionSortList(x);
-  while (x) {
-    printf("%d ", x->val);
-    x = x->next;
-  }
-}

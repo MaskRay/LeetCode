@@ -1,10 +1,3 @@
-#include <cstdio>
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
-using namespace std;
-
 class Solution {
 public:
     void reverseWords(string &s) {
@@ -22,10 +15,3 @@ public:
       }
     }
 };
-
-int main()
-{
-  string s = "   the sky   is blue   ";
-  Solution().reverseWords(s);
-  cout << s << endl;
-}

@@ -1,8 +1,3 @@
-#include <cstdio>
-#include <vector>
-#include <algorithm>
-using namespace std;
-
 class Solution {
 public:
     vector<int> twoSum(vector<int> &a, int s) {
@@ -25,10 +20,3 @@ public:
       return r;
     }
 };
-
-int main()
-{
-  vector<int> a{4,3,2};
-  vector<int> r = Solution().twoSum(a, 6);
-  printf("%d %d\n", r[0], r[1]);
-}

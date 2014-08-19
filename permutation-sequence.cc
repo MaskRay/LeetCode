@@ -19,3 +19,28 @@ public:
     return r;
   }
 };
+
+// bit twiddling
+
+#define ROF(i, a, b) for (int i = (b); --i >= (a); )
+
+class Solution {
+public:
+  string getPermutation(int n, int k) {
+    int f[] = {1,1,2,6,24,120,720,5040,40320};
+    int a = ~0;
+    string r;
+    k--;
+    ROF(i, 0, n) {
+      int t = k/f[i];
+      k %= f[i];
+      int b = a;
+      while (t--)
+        b &= b-1;
+      int j = __builtin_ctz(b);
+      a ^= 1<<j;
+      r += '1'+j;
+    }
+    return r;
+  }
+};

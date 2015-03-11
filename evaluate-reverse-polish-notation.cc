@@ -1,15 +1,3 @@
-#include <cstdio>
-#include <cctype>
-#include <stack>
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <string>
-using namespace std;
-
-#include <cctype>
-#include <stack>
-
 class Solution {
 public:
     int evalRPN(vector<string> &tokens) {
@@ -39,9 +27,3 @@ public:
       return st.top();
     }
 };
-
-int main()
-{
-  vector<string> a{"-1","1","*","-1","+"};
-  cout << Solution().evalRPN(a) << endl;
-}

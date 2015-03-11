@@ -1,3 +1,4 @@
+// Populating Next Right Pointers in Each Node II
 class Solution {
 public:
   void connect(TreeLinkNode *p) {

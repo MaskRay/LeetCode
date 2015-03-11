@@ -1,3 +1,4 @@
+// Max Points on a Line
 #define FOR(i, a, b) for (__typeof(b) i = (a); i < (b); i++)
 #define REP(i, n) FOR(i, 0, n)
 

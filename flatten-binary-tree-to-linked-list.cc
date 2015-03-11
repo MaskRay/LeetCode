@@ -1,3 +1,4 @@
+// Flatten Binary Tree to Linked List
 class Solution {
 public:
   void flatten(TreeNode *root) {

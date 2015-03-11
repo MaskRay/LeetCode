@@ -1,3 +1,4 @@
+// Merge Intervals
 class Solution {
 public:
   vector<Interval> merge(vector<Interval> &intervals) {

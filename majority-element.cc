@@ -1,3 +1,4 @@
+// Majority Element
 class Solution {
 public:
   int majorityElement(vector<int> &a) {

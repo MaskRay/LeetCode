@@ -1,3 +1,4 @@
+// Maximal Rectangle
 // 秋叶拓哉（iwi）、岩田阳一（wata）和北川宜稔（kita_masa）所著，巫泽俊（watashi）、庄俊元（navi）和李津羽（itsuhane）翻译的《挑战程序设计竞赛》
 
 #define ROF(i, a, b) for (int i = (b); --i >= (a); )

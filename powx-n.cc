@@ -1,3 +1,4 @@
+// Pow(x, n)
 class Solution {
 public:
   double pow(double x, int n) {

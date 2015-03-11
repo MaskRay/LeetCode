@@ -29,6 +29,92 @@ public:
   }
 };
 
+/// http://codeforces.com/problemset/problem/391/F3
+
+#define FOR(i, a, b) for (int i = (a); i < (b); i++)
+#define REP(i, n) FOR(i, 0, n)
+
+class Solution {
+public:
+  int maxProfit(int k, vector<int> &a) {
+    int n = (int)a.size(), nn = 0;
+    REP(i, n-1) {
+      a[nn] = a[i+1]-a[i];
+      if (! nn && a[0] <= 0)
+        ;
+      else if (nn && (a[nn-1] > 0) == (a[nn] > 0))
+        a[nn-1] += a[nn];
+      else
+        nn++;
+    }
+    while (nn && a[nn-1] <= 0) nn--;
+    if (! nn) return 0;
+
+    vector<int> L(nn+1), R(nn+1);
+    vector<pair<int, int>> vp(nn);
+    vector<bool> flag(nn+1, false), in(nn+1, false);
+    REP(i, nn)
+      L[i] = i-1, R[i] = i+1;
+    L[0] = nn, R[nn] = 0;
+    L[nn] = nn-1;
+
+    stack<int> can;
+    for(;;) {
+      int nvp = 0;
+      for (int i = R[nn]; i != nn; i = R[i])
+        if (! flag[i])
+          vp[nvp++] = make_pair(abs(a[i]), i);
+      if (nvp <= 2*k) break;
+      int rm = (nvp-2*k+1)/2;
+      nth_element(vp.begin(), vp.begin()+rm-1, vp.begin()+nvp);
+      auto pivot = vp[rm-1];
+
+      auto add = [&](int x) {
+        if (! in[x] && make_pair(abs(a[x]), x) <= pivot) {
+          in[x] = true;
+          can.push(x);
+        }
+      };
+
+      for (int i = R[nn]; i != nn; i = R[i])
+        add(i);
+      while (! can.empty()) {
+        int x = can.top();
+        can.pop();
+        in[x] = false;
+
+        int l = L[x], r = R[x];
+        if (flag[x] ||
+            l < nn && abs(a[x]) > abs(a[l]) ||
+            r < nn && abs(a[x]) > abs(a[r]))
+          continue;
+        flag[l] = flag[r] = true;
+        L[x] = l < nn ? L[l] : nn;
+        R[x] = r < nn ? R[r] : nn;
+        R[L[x]] = L[R[x]] = x;
+        a[x] += a[l] + (r < nn ? a[r] : 0);
+        if (l == nn) {
+          flag[x] = true;
+          L[R[nn] = R[x]] = nn;
+        }
+        if (r == nn) {
+          flag[x] = true;
+          R[L[nn] = L[x]] = nn;
+        }
+        if (L[x] < nn) add(L[x]);
+        if (R[x] < nn) add(R[x]);
+        add(x);
+      }
+    }
+
+    int sum = 0;
+    for (int i = R[nn]; i != nn; i = R[i])
+      if (a[i] > 0)
+        sum += a[i];
+    return sum;
+  }
+};
+
 /// TLE. dynamic programming
 
 #define FOR(i, a, b) for (int i = (a); i < (b); i++)

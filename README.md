@@ -1,8 +1,14 @@
 # LeetCode
 
-See [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions)
+[LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-172/181
+Solved 172/181 problems.
+
+## Database
+
+See [database.md](database.md)
+
+## Algorithms
 
 | # | Title | Solution |
 |---| ----- | -------- |

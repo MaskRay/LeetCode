@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 191/207 problems.
+Solved 194/203 problems.
 
 ## Database
 
@@ -12,6 +12,18 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[contains-duplicate-ii.cc](contains-duplicate-ii.cc)|
+|218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[the-skyline-problem.cc](the-skyline-problem.cc)|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[contains-duplicate.cc](contains-duplicate.cc)|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[combination-sum-iii.cc](combination-sum-iii.cc)|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[kth-largest-element-in-an-array.cc](kth-largest-element-in-an-array.cc)|
+|214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[shortest-palindrome.cc](shortest-palindrome.cc)|
+|213|[House Robber II](https://leetcode.com/problems/house-robber-ii/)|[house-robber-ii.cc](house-robber-ii.cc)|
+|212|[Word Search II](https://leetcode.com/problems/word-search-ii/)|[word-search-ii.cc](word-search-ii.cc)|
+|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[add-and-search-word-data-structure-design.cc](add-and-search-word-data-structure-design.cc)|
+|210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[course-schedule-ii.cc](course-schedule-ii.cc)|
+|209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[minimum-size-subarray-sum.cc](minimum-size-subarray-sum.cc)|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[implement-trie-prefix-tree.cc](implement-trie-prefix-tree.cc)|
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[course-schedule.cc](course-schedule.cc)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[reverse-linked-list.cc](reverse-linked-list.cc)|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[isomorphic-strings.cc](isomorphic-strings.cc)|

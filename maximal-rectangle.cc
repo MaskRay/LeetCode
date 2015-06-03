@@ -10,20 +10,26 @@ public:
   int maximalRectangle(vector<vector<char> > &a) {
     if (a.empty()) return 0;
     int m = a.size(), n = a[0].size(), ans = 0;
-    vector<int> h(n), l(n), r(n, n-1);
+    vector<int> h(n, 0), l(n, 0), r(n, n-1);
     REP(i, m) {
-      int ll = -1;
-      REP(j, n) {
-        h[j] = a[i][j] == '1' ? h[j]+1 : 0;
-        if (a[i][j] == '0') ll = j;
-        l[j] = h[j] ? max(h[j] == 1 ? 0 : l[j], ll+1) : j;
-      }
-      int rr = n;
-      ROF(j, 0, n) {
-        if (a[i][j] == '0') rr = j;
-        r[j] = h[j] ? min(h[j] == 1 ? n-1 : r[j], rr-1) : j;
-        ans = max(ans, (r[j]-l[j]+1)*h[j]);
-      }
+      int ll = 0, rr = n-1;
+      REP(j, n)
+        if (a[i][j] == '1')
+          l[j] = max(l[j], ll);
+        else {
+          l[j] = 0;
+          ll = j+1;
+        }
+      ROF(j, 0, n)
+        if (a[i][j] == '1') {
+          h[j]++;
+          r[j] = min(r[j], rr);
+          ans = max(ans, (r[j]-l[j]+1)*h[j]);
+        } else {
+          h[j] = 0;
+          r[j] = n-1;
+          rr = j-1;
+        }
     }
     return ans;
   }

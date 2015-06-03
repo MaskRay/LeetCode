@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 194/203 problems.
+Solved 196/205 problems.
 
 ## Database
 
@@ -12,6 +12,8 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[maximal-square.cc](maximal-square.cc)|
+|220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[contains-duplicate-iii.cc](contains-duplicate-iii.cc)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[contains-duplicate-ii.cc](contains-duplicate-ii.cc)|
 |218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)|[the-skyline-problem.cc](the-skyline-problem.cc)|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[contains-duplicate.cc](contains-duplicate.cc)|

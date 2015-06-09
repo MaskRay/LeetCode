@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 196/205 problems.
+Solved 199/208 problems.
 
 ## Database
 
@@ -12,6 +12,9 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|224|[Basic Calculator](https://leetcode.com/problems/basic-calculator/)|[basic-calculator.cc](basic-calculator.cc)|
+|223|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)|[rectangle-area.cc](rectangle-area.cc)|
+|222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[count-complete-tree-nodes.cc](count-complete-tree-nodes.cc)|
 |221|[Maximal Square](https://leetcode.com/problems/maximal-square/)|[maximal-square.cc](maximal-square.cc)|
 |220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/)|[contains-duplicate-iii.cc](contains-duplicate-iii.cc)|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[contains-duplicate-ii.cc](contains-duplicate-ii.cc)|

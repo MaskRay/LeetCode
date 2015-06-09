@@ -1,28 +1,19 @@
 // Palindrome Partitioning II
 #define FOR(i, a, b) for (int i = (a); i < (b); i++)
-#define ROF(i, a, b) for (int i = (b); --i >= (a); )
+#define REP(i, n) FOR(i, 0, n)
 
 class Solution {
 public:
   int minCut(string s) {
-    if (s.empty()) return 0;
     int n = s.size();
-    vector<vector<bool>> f(n, vector<bool>(n));
-    vector<int> g(n+1);
-    g[n] = 0;
-    ROF(i, 0, n) {
-      f[i][i] = true;
-      if (i+1 < n)
-        f[i][i+1] = s[i] == s[i+1];
-      FOR(j, i+2, n)
-        if (f[i+1][j-1] && s[i] == s[j])
-          f[i][j] = true;
-      g[i] = n;
-      FOR(j, i, n)
-        if (f[i][j])
-          g[i] = min(g[i], g[j+1]+1);
+    vector<int> f(n+1);
+    iota(f.begin(), f.end(), -1);
+    REP(i, n) {
+      for (int j = 0; i-j >= 0 && i+j < n && s[i-j] == s[i+j]; j++)
+        f[i+j+1] = min(f[i+j+1], f[i-j]+1);
+      for (int j = 1; i-j+1 >= 0 && i+j < n && s[i-j+1] == s[i+j]; j++)
+        f[i+j+1] = min(f[i+j+1], f[i-j+1]+1);
     }
-    return g[0]-1;
+    return f[n];
   }
 };
-

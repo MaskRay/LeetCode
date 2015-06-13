@@ -1,4 +1,6 @@
 // Binary Tree Postorder Traversal
+
+// stack
 class Solution {
 public:
   vector<int> postorderTraversal(TreeNode *p) {
@@ -18,5 +20,46 @@ public:
       p = s.top()->right;
     }
     return a;
+  }
+};
+
+// Morris post-order traversal
+class Solution {
+  void reverse_right_chain(TreeNode *x, TreeNode *y) {
+    TreeNode *p = x, *q = x->right, *right;
+    while (p != y) {
+      right = q->right;
+      q->right = p;
+      p = q;
+      q = right;
+    }
+  }
+public:
+  vector<int> postorderTraversal(TreeNode* root) {
+    vector<int> ret;
+    TreeNode aux(0), *p = &aux;
+    aux.left = root;
+    aux.right = NULL;
+    while (p) {
+      TreeNode *q = p->left;
+      if (q) {
+        while (q->right && q->right != p) q = q->right;
+        if (q->right == p) {
+          reverse_right_chain(p->left, q);
+          for (TreeNode *r = q; ; r = r->right) {
+            ret.push_back(r->val);
+            if (r == p->left) break;
+          }
+          reverse_right_chain(q, p->left);
+          q->right = NULL;
+        } else {
+          q->right = p;
+          p = p->left;
+          continue;
+        }
+      }
+      p = p->right;
+    }
+    return ret;
   }
 };

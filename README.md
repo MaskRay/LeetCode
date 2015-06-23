@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 201/210 problems.
+Solved 202/211 problems.
 
 ## Database
 
@@ -12,6 +12,7 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|227|[Basic Calculator II](/problems/basic-calculator-ii/)|[basic-calculator-ii.cc](basic-calculator-ii.cc)|
 |226|[Invert Binary Tree](/problems/invert-binary-tree/)|[invert-binary-tree.cc](invert-binary-tree.cc)|
 |225|[Implement Stack using Queues](/problems/implement-stack-using-queues/)|[implement-stack-using-queues.cc](implement-stack-using-queues.cc)|
 |224|[Basic Calculator](/problems/basic-calculator/)|[basic-calculator.cc](basic-calculator.cc)|
@@ -222,4 +223,3 @@ See [database.md](database.md)
 |3|[Longest Substring Without Repeating Characters](/problems/longest-substring-without-repeating-characters/)|[longest-substring-without-repeating-characters.cc](longest-substring-without-repeating-characters.cc)|
 |2|[Add Two Numbers](/problems/add-two-numbers/)|[add-two-numbers.cc](add-two-numbers.cc)|
 |1|[Two Sum](/problems/two-sum/)|[two-sum.cc](two-sum.cc)|
-

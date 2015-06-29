@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 202/211 problems.
+Solved 204/213 problems.
 
 ## Database
 
@@ -12,6 +12,8 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|229|[Majority Element II](/problems/majority-element-ii/)|[majority-element-ii.cc](majority-element-ii.cc)|
+|228|[Summary Ranges](/problems/summary-ranges/)|[summary-ranges.cc](summary-ranges.cc)|
 |227|[Basic Calculator II](/problems/basic-calculator-ii/)|[basic-calculator-ii.cc](basic-calculator-ii.cc)|
 |226|[Invert Binary Tree](/problems/invert-binary-tree/)|[invert-binary-tree.cc](invert-binary-tree.cc)|
 |225|[Implement Stack using Queues](/problems/implement-stack-using-queues/)|[implement-stack-using-queues.cc](implement-stack-using-queues.cc)|

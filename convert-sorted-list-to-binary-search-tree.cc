@@ -1,20 +1,23 @@
 // Convert Sorted List to Binary Search Tree
 class Solution {
+  ListNode *l;
+  TreeNode *f(int n) {
+    if (! n) return 0;
+    auto x = new TreeNode(0);
+    x->left = f(n/2);
+    x->val = l->val;
+    l = l->next;
+    x->right = f(n-n/2-1);
+    return x;
+  }
 public:
   TreeNode *sortedListToBST(ListNode *head) {
-    if (! head) return NULL;
-    ListNode *p = head, *q = head, *r = NULL;
-    while (q->next && q->next->next) {
-      r = p;
-      p = p->next;
-      q = q->next->next;
+    l = head;
+    int n = 0;
+    while (head) {
+      head = head->next;
+      n++;
     }
-    TreeNode *x = new TreeNode(p->val);
-    if (r) {
-      r->next = NULL;
-      x->left = sortedListToBST(head);
-    }
-    x->right = sortedListToBST(p->next);
-    return x;
+    return f(n);
   }
 };

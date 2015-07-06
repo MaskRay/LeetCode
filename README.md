@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 204/213 problems.
+Solved 206/215 problems.
 
 ## Database
 
@@ -12,6 +12,8 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|231|[Power of Two](/problems/power-of-two/)|[power-of-two.cc](power-of-two.cc)|
+|230|[Kth Smallest Element in a BST](/problems/kth-smallest-element-in-a-bst/)|[kth-smallest-element-in-a-bst.cc](kth-smallest-element-in-a-bst.cc)|
 |229|[Majority Element II](/problems/majority-element-ii/)|[majority-element-ii.cc](majority-element-ii.cc)|
 |228|[Summary Ranges](/problems/summary-ranges/)|[summary-ranges.cc](summary-ranges.cc)|
 |227|[Basic Calculator II](/problems/basic-calculator-ii/)|[basic-calculator-ii.cc](basic-calculator-ii.cc)|

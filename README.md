@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 206/215 problems.
+Solved 211/220 problems.
 
 ## Database
 
@@ -12,6 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|236|[Lowest Common Ancestor of a Binary Tree](/problems/lowest-common-ancestor-of-a-binary-tree/)|[lowest-common-ancestor-of-a-binary-tree.cc](lowest-common-ancestor-of-a-binary-tree.cc)|
+|235|[Lowest Common Ancestor of a Binary Search Tree](/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[lowest-common-ancestor-of-a-binary-search-tree.cc](lowest-common-ancestor-of-a-binary-search-tree.cc)|
+|234|[Palindrome Linked List](/problems/palindrome-linked-list/)|[palindrome-linked-list.cc](palindrome-linked-list.cc)|
+|233|[Number of Digit One](/problems/number-of-digit-one/)|[number-of-digit-one.cc](number-of-digit-one.cc)|
+|232|[Implement Queue using Stacks](/problems/implement-queue-using-stacks/)|[implement-queue-using-stacks.cc](implement-queue-using-stacks.cc)|
 |231|[Power of Two](/problems/power-of-two/)|[power-of-two.cc](power-of-two.cc)|
 |230|[Kth Smallest Element in a BST](/problems/kth-smallest-element-in-a-bst/)|[kth-smallest-element-in-a-bst.cc](kth-smallest-element-in-a-bst.cc)|
 |229|[Majority Element II](/problems/majority-element-ii/)|[majority-element-ii.cc](majority-element-ii.cc)|

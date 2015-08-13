@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 211/220 problems.
+Solved 217/239 problems.
 
 ## Database
 
@@ -12,6 +12,25 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|255|[Verify Preorder Sequence in Binary Search Tree](/problems/verify-preorder-sequence-in-binary-search-tree/)|[verify-preorder-sequence-in-binary-search-tree.cc](verify-preorder-sequence-in-binary-search-tree.cc)|
+|254|[Factor Combinations](/problems/factor-combinations/)|[factor-combinations.cc](factor-combinations.cc)|
+|253|[Meeting Rooms II](/problems/meeting-rooms-ii/)|[meeting-rooms-ii.cc](meeting-rooms-ii.cc)|
+|252|[Meeting Rooms](/problems/meeting-rooms/)|[meeting-rooms.cc](meeting-rooms.cc)|
+|251|[Flatten 2D Vector](/problems/flatten-2d-vector/)|[flatten-2d-vector.cc](flatten-2d-vector.cc)|
+|250|[Count Univalue Subtrees](/problems/count-univalue-subtrees/)|[count-univalue-subtrees.cc](count-univalue-subtrees.cc)|
+|249|[Group Shifted Strings](/problems/group-shifted-strings/)|[group-shifted-strings.cc](group-shifted-strings.cc)|
+|248|[Strobogrammatic Number III](/problems/strobogrammatic-number-iii/)|[strobogrammatic-number-iii.cc](strobogrammatic-number-iii.cc)|
+|247|[Strobogrammatic Number II](/problems/strobogrammatic-number-ii/)|[strobogrammatic-number-ii.cc](strobogrammatic-number-ii.cc)|
+|246|[Strobogrammatic Number](/problems/strobogrammatic-number/)|[strobogrammatic-number.cc](strobogrammatic-number.cc)|
+|245|[Shortest Word Distance III](/problems/shortest-word-distance-iii/)|[shortest-word-distance-iii.cc](shortest-word-distance-iii.cc)|
+|244|[Shortest Word Distance II](/problems/shortest-word-distance-ii/)|[shortest-word-distance-ii.cc](shortest-word-distance-ii.cc)|
+|243|[Shortest Word Distance](/problems/shortest-word-distance/)|[shortest-word-distance.cc](shortest-word-distance.cc)|
+|242|[Valid Anagram](/problems/valid-anagram/)|[valid-anagram.cc](valid-anagram.cc)|
+|241|[Different Ways to Add Parentheses](/problems/different-ways-to-add-parentheses/)|[different-ways-to-add-parentheses.cc](different-ways-to-add-parentheses.cc)|
+|240|[Search a 2D Matrix II](/problems/search-a-2d-matrix-ii/)|[search-a-2d-matrix-ii.cc](search-a-2d-matrix-ii.cc)|
+|239|[Sliding Window Maximum](/problems/sliding-window-maximum/)|[sliding-window-maximum.cc](sliding-window-maximum.cc)|
+|238|[Product of Array Except Self](/problems/product-of-array-except-self/)|[product-of-array-except-self.cc](product-of-array-except-self.cc)|
+|237|[Delete Node in a Linked List](/problems/delete-node-in-a-linked-list/)|[delete-node-in-a-linked-list.cc](delete-node-in-a-linked-list.cc)|
 |236|[Lowest Common Ancestor of a Binary Tree](/problems/lowest-common-ancestor-of-a-binary-tree/)|[lowest-common-ancestor-of-a-binary-tree.cc](lowest-common-ancestor-of-a-binary-tree.cc)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[lowest-common-ancestor-of-a-binary-search-tree.cc](lowest-common-ancestor-of-a-binary-search-tree.cc)|
 |234|[Palindrome Linked List](/problems/palindrome-linked-list/)|[palindrome-linked-list.cc](palindrome-linked-list.cc)|
@@ -183,7 +202,7 @@ See [database.md](database.md)
 |52|[N-Queens II](/problems/n-queens-ii/)|[n-queens-ii.cc](n-queens-ii.cc)|
 |51|[N-Queens](/problems/n-queens/)|[n-queens.cc](n-queens.cc)|
 |50|[Pow(x, n)](/problems/powx-n/)|[powx-n.cc](powx-n.cc)|
-|49|[Anagrams](/problems/anagrams/)|[anagrams.cc](anagrams.cc)|
+|49|[Group Anagrams](/problems/anagrams/)|[anagrams.cc](anagrams.cc)|
 |48|[Rotate Image](/problems/rotate-image/)|[rotate-image.cc](rotate-image.cc)|
 |47|[Permutations II](/problems/permutations-ii/)|[permutations-ii.cc](permutations-ii.cc)|
 |46|[Permutations](/problems/permutations/)|[permutations.cc](permutations.cc)|

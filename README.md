@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 217/239 problems.
+Solved 222/251 problems.
 
 ## Database
 
@@ -12,6 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|268|[Missing Number](/problems/missing-number/)|[missing-number.cc](missing-number.cc)|
+|264|[Ugly Number II](/problems/ugly-number-ii/)|[ugly-number-ii.cc](ugly-number-ii.cc)|
+|263|[Ugly Number](/problems/ugly-number/)|[ugly-number.cc](ugly-number.cc)|
+|258|[Add Digits](/problems/add-digits/)|[add-digits.cc](add-digits.cc)|
+|257|[Binary Tree Paths](/problems/binary-tree-paths/)|[binary-tree-paths.cc](binary-tree-paths.cc)|
 |242|[Valid Anagram](/problems/valid-anagram/)|[valid-anagram.cc](valid-anagram.cc)|
 |241|[Different Ways to Add Parentheses](/problems/different-ways-to-add-parentheses/)|[different-ways-to-add-parentheses.cc](different-ways-to-add-parentheses.cc)|
 |240|[Search a 2D Matrix II](/problems/search-a-2d-matrix-ii/)|[search-a-2d-matrix-ii.cc](search-a-2d-matrix-ii.cc)|

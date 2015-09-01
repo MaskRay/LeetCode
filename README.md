@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 222/251 problems.
+Solved 224/256 problems.
 
 ## Database
 
@@ -12,9 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|273|[Integer to English Words](/problems/integer-to-english-words/)|[integer-to-english-words.cc](integer-to-english-words.cc)|
 |268|[Missing Number](/problems/missing-number/)|[missing-number.cc](missing-number.cc)|
 |264|[Ugly Number II](/problems/ugly-number-ii/)|[ugly-number-ii.cc](ugly-number-ii.cc)|
 |263|[Ugly Number](/problems/ugly-number/)|[ugly-number.cc](ugly-number.cc)|
+|260|[Single Number III](/problems/single-number-iii/)|[single-number-iii.cc](single-number-iii.cc)|
 |258|[Add Digits](/problems/add-digits/)|[add-digits.cc](add-digits.cc)|
 |257|[Binary Tree Paths](/problems/binary-tree-paths/)|[binary-tree-paths.cc](binary-tree-paths.cc)|
 |242|[Valid Anagram](/problems/valid-anagram/)|[valid-anagram.cc](valid-anagram.cc)|

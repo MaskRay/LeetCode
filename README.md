@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 224/256 problems.
+Solved 226/258 problems.
 
 ## Database
 
@@ -12,6 +12,8 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|275|[H-Index II](/problems/h-index-ii/)|[h-index-ii.cc](h-index-ii.cc)|
+|274|[H-Index](/problems/h-index/)|[h-index.cc](h-index.cc)|
 |273|[Integer to English Words](/problems/integer-to-english-words/)|[integer-to-english-words.cc](integer-to-english-words.cc)|
 |268|[Missing Number](/problems/missing-number/)|[missing-number.cc](missing-number.cc)|
 |264|[Ugly Number II](/problems/ugly-number-ii/)|[ugly-number-ii.cc](ugly-number-ii.cc)|

@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 228/263 problems.
+Solved 229/265 problems.
 
 ## Database
 
@@ -12,6 +12,7 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[expression-add-operators.cc](expression-add-operators.cc)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[perfect-squares.cc](perfect-squares.cc)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[first-bad-version.cc](first-bad-version.cc)|
 |275|[H-Index II](https://leetcode.com/problems/h-index-ii/)|[h-index-ii.cc](h-index-ii.cc)|

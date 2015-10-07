@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 229/265 problems.
+Solved 234/273 problems.
 
 ## Database
 
@@ -12,6 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[word-pattern.cc](word-pattern.cc)|
+|289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[game-of-life.cc](game-of-life.cc)|
+|287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[find-the-duplicate-number.cc](find-the-duplicate-number.cc)|
+|284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[peeking-iterator.cc](peeking-iterator.cc)|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[move-zeroes.cc](move-zeroes.cc)|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[expression-add-operators.cc](expression-add-operators.cc)|
 |279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[perfect-squares.cc](perfect-squares.cc)|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[first-bad-version.cc](first-bad-version.cc)|

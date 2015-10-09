@@ -1,4 +1,7 @@
 // Meeting Rooms II
+
+/// answer = maximum clique = maximum number of intersecting intervals
+
 class Solution {
 public:
   int minMeetingRooms(vector<Interval>& intervals) {
@@ -18,5 +21,21 @@ public:
       r = max(r, c);
     }
     return r;
+  }
+};
+
+/// answer = chromatic number. graph coloring with greedy algorithm
+
+class Solution {
+public:
+  int minMeetingRooms(vector<Interval>& intervals) {
+    sort(intervals.begin(), intervals.end(), [](const Interval &x, const Interval &y) { return x.start < y.start; });
+    priority_queue<int, vector<int>, greater<int>> h;
+    for (auto &i: intervals) {
+      if (! h.empty() && h.top() <= i.start)
+        h.pop();
+      h.push(i.end);
+    }
+    return h.size();
   }
 };

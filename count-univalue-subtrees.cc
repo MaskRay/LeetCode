@@ -1,6 +1,7 @@
 // Count Univalue Subtrees
 
-// recursive
+/// recursive
+
 class Solution {
   bool f(TreeNode *x, int &r) {
     if (! x) return true;
@@ -19,7 +20,34 @@ public:
   }
 };
 
-// Morris-like post-order traversal
+/// post-order traversal with stack
+
+class Solution {
+public:
+  int countUnivalSubtrees(TreeNode *x) {
+    int r = 0;
+    stack<pair<TreeNode*, bool>> s;
+    for(;;) {
+      for (; x; x = x->left)
+        s.push({x, true});
+      while (! s.empty() && s.top().first->right == x) {
+        bool f = s.top().second;
+        x = s.top().first;
+        s.pop();
+        r += f;
+        if (! s.empty())
+          s.top().second &= f && s.top().first->val == x->val;
+      }
+      if (s.empty())
+        break;
+      x = s.top().first->right;
+    }
+    return r;
+  }
+};
+
+/// Morris-like post-order traversal
+
 class Solution {
   void reverse_right_chain(TreeNode *x, TreeNode *y) {
     TreeNode *z = x->right, *t;

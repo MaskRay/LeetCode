@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 273/273 problems.
+Solved 277/277 problems.
 
 ## Database
 
@@ -12,6 +12,10 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|294|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[flip-game-ii.cc](flip-game-ii.cc)|
+|293|[Flip Game](https://leetcode.com/problems/flip-game/)|[flip-game.cc](flip-game.cc)|
+|292|[Nim Game](https://leetcode.com/problems/nim-game/)|[nim-game.cc](nim-game.cc)|
+|291|[Word Pattern II](https://leetcode.com/problems/word-pattern-ii/)|[word-pattern-ii.cc](word-pattern-ii.cc)|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[word-pattern.cc](word-pattern.cc)|
 |289|[Game of Life](https://leetcode.com/problems/game-of-life/)|[game-of-life.cc](game-of-life.cc)|
 |288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/)|[unique-word-abbreviation.cc](unique-word-abbreviation.cc)|

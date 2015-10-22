@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 277/277 problems.
+Solved 279/279 problems.
 
 ## Database
 
@@ -12,6 +12,8 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|[best-meeting-point.cc](best-meeting-point.cc)|
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[find-median-from-data-stream.cc](find-median-from-data-stream.cc)|
 |294|[Flip Game II](https://leetcode.com/problems/flip-game-ii/)|[flip-game-ii.cc](flip-game-ii.cc)|
 |293|[Flip Game](https://leetcode.com/problems/flip-game/)|[flip-game.cc](flip-game.cc)|
 |292|[Nim Game](https://leetcode.com/problems/nim-game/)|[nim-game.cc](nim-game.cc)|

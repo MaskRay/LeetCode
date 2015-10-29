@@ -10,3 +10,29 @@ public:
     return dl == dr ? (1 << dl) - 1 : countNodes(root->left) + countNodes(root->right) + 1;
   }
 };
+
+///
+
+class Solution {
+  int f(TreeNode *x) {
+    int h = 0;
+    for (; x; x = x->left)
+      h++;
+    return h;
+  }
+public:
+  int countNodes(TreeNode *root) {
+    int h = f(root), s = 0;
+    while (root) {
+      h--;
+      if (f(root->right) == h) {
+        s += 1 << h;
+        root = root->right;
+      } else {
+        s += 1 << h-1;
+        root = root->left;
+      }
+    }
+    return s;
+  }
+};

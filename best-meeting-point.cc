@@ -12,7 +12,6 @@ public:
         xs.push_back(i);
         ys.push_back(j);
       }
-    nth_element(xs.begin(), xs.begin()+xs.size()/2, xs.end());
     nth_element(ys.begin(), ys.begin()+ys.size()/2, ys.end());
     int d = 0, rx = xs[xs.size()/2], ry = ys[ys.size()/2];
     for (auto x: xs)

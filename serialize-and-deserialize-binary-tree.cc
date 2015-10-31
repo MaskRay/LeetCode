@@ -41,7 +41,7 @@ class Codec {
     return (TreeNode *)(ptrdiff_t(x) & -4);
   }
 public:
-  string serialize(TreeNode* x) {
+  string serialize(TreeNode *x) {
     string s;
     while (x) {
       auto y = x->left;

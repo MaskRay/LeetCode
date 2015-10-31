@@ -1,7 +1,7 @@
 // Single Number
 class Solution {
 public:
-  int singleNumber(int A[], int n) {
-    return accumulate(A, A+n, 0, bit_xor<int>());
+  int singleNumber(vector<int> &a) {
+    return accumulate(a.begin(), a.end(), 0, bit_xor<int>());
   }
 };

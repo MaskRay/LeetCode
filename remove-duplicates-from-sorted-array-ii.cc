@@ -1,11 +1,11 @@
 // Remove Duplicates from Sorted Array II
 class Solution {
 public:
-  int removeDuplicates(int A[], int n) {
+  int removeDuplicates(vector<int> &a) {
     int j = 0;
-    for (int i = 0; i < n; i++)
-      if (j < 2 || A[j-1] != A[i] || A[j-2] != A[i])
-        A[j++] = A[i];
+    for (auto x: a)
+      if (j < 2 || a[j-1] != x || a[j-2] != x)
+        a[j++] = x;
     return j;
   }
 };

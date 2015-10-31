@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 280/281 problems.
+Solved 281/282 problems.
 
 ## Database
 
@@ -12,6 +12,7 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[bulls-and-cows.cc](bulls-and-cows.cc)|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[serialize-and-deserialize-binary-tree.cc](serialize-and-deserialize-binary-tree.cc)|
 |296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|[best-meeting-point.cc](best-meeting-point.cc)|
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[find-median-from-data-stream.cc](find-median-from-data-stream.cc)|

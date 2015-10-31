@@ -1,14 +1,12 @@
 // Maximum Product Subarray
-#define FOR(i, a, b) for (int i = (a); i < (b); i++)
-
 class Solution {
 public:
-  int maxProduct(int A[], int n) {
-    int ans = A[0], mi = A[0], ma = A[0];
-    FOR(i, 1, n) {
-      int x = mi*A[i], y = ma*A[i];
-      mi = min(A[i], min(x, y));
-      ma = max(A[i], max(x, y));
+  int maxProduct(vector<int> &a) {
+    int ans = a[0], mi = a[0], ma = a[0];
+    for (int i = 1; i < a.size(); i++) {
+      int x = mi*a[i], y = ma*a[i];
+      mi = min(a[i], min(x, y));
+      ma = max(a[i], max(x, y));
       ans = max(ans, ma);
     }
     return ans;

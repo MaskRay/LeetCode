@@ -1,14 +1,13 @@
 // Merge Sorted Array
 class Solution {
 public:
-  void merge(int A[], int m, int B[], int n) {
-    int *C = new int[m+n];
+  void merge(vector<int> &a, int m, vector<int> &b, int n) {
+    vector<int> c(m+n);
     for (int i = 0, j = 0; i < m || j < n; )
-      if (j == n || i < m && A[i] < B[j])
-        C[i+j] = A[i], i++;
+      if (j == n || i < m && a[i] < b[j])
+        c[i+j] = a[i], i++;
       else
-        C[i+j] = B[j], j++;
-    copy(C, C+m+n, A);
-    delete[] C;
+        c[i+j] = b[j], j++;
+    a.swap(c);
   }
 };

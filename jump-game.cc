@@ -3,12 +3,12 @@
 
 class Solution {
 public:
-  bool canJump(int A[], int n) {
+  bool canJump(vector<int> &a) {
     int r = 0;
-    REP(i, n) {
+    REP(i, a.size()) {
       if (i > r) break;
-      r = max(r, i+A[i]);
+      r = max(r, i+a[i]);
     }
-    return r >= n-1;
+    return r >= a.size()-1;
   };
 };

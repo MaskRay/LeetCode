@@ -1,11 +1,12 @@
 // Rotate Array
 class Solution {
 public:
-  void rotate(int a[], int n, int k) {
+  void rotate(vector<int> &a, int k) {
+    int n = a.size();
     k = (n-k%n)%n;
-    reverse(a, a+k);
-    reverse(a+k, a+n);
-    reverse(a, a+n);
+    reverse(a.begin(), a.begin()+k);
+    reverse(a.begin()+k, a.end());
+    reverse(a.begin(), a.end());
   }
 };
 
@@ -24,7 +25,8 @@ int gcd(int a, int b)
 
 class Solution {
 public:
-  void rotate(int a[], int n, int m) {
+  void rotate(vector<int> &a, int m) {
+    int n = a.size();
     m %= n;
     int d = gcd(n, m);
     REP(i, d) {

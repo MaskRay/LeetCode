@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 281/282 problems.
+Solved 283/284 problems.
 
 ## Database
 
@@ -12,6 +12,8 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[remove-invalid-parentheses.cc](remove-invalid-parentheses.cc)|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[longest-increasing-subsequence.cc](longest-increasing-subsequence.cc)|
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[bulls-and-cows.cc](bulls-and-cows.cc)|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[serialize-and-deserialize-binary-tree.cc](serialize-and-deserialize-binary-tree.cc)|
 |296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|[best-meeting-point.cc](best-meeting-point.cc)|

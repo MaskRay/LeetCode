@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 283/284 problems.
+Solved 289/290 problems.
 
 ## Database
 
@@ -12,9 +12,15 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[range-sum-query-mutable.cc](range-sum-query-mutable.cc)|
+|305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|[number-of-islands-ii.cc](number-of-islands-ii.cc)|
+|304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[range-sum-query-2d-immutable.cc](range-sum-query-2d-immutable.cc)|
+|303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[range-sum-query-immutable.cc](range-sum-query-immutable.cc)|
+|302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)|[smallest-rectangle-enclosing-black-pixels.cc](smallest-rectangle-enclosing-black-pixels.cc)|
 |301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[remove-invalid-parentheses.cc](remove-invalid-parentheses.cc)|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[longest-increasing-subsequence.cc](longest-increasing-subsequence.cc)|
 |299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)|[bulls-and-cows.cc](bulls-and-cows.cc)|
+|298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)|[binary-tree-longest-consecutive-sequence.cc](binary-tree-longest-consecutive-sequence.cc)|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[serialize-and-deserialize-binary-tree.cc](serialize-and-deserialize-binary-tree.cc)|
 |296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/)|[best-meeting-point.cc](best-meeting-point.cc)|
 |295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[find-median-from-data-stream.cc](find-median-from-data-stream.cc)|

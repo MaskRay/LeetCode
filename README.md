@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 289/290 problems.
+Solved 298/298 problems.
 
 ## Database
 
@@ -12,7 +12,16 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[count-of-smaller-numbers-after-self.cc](count-of-smaller-numbers-after-self.cc)|
+|314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[binary-tree-vertical-order-traversal.cc](binary-tree-vertical-order-traversal.cc)|
+|313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|[super-ugly-number.cc](super-ugly-number.cc)|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[burst-balloons.cc](burst-balloons.cc)|
+|311|[Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/)|[sparse-matrix-multiplication.cc](sparse-matrix-multiplication.cc)|
+|310|[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)|[minimum-height-trees.cc](minimum-height-trees.cc)|
+|309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[best-time-to-buy-and-sell-stock-with-cooldown.cc](best-time-to-buy-and-sell-stock-with-cooldown.cc)|
+|308|[Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable/)|[range-sum-query-2d-mutable.cc](range-sum-query-2d-mutable.cc)|
 |307|[Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)|[range-sum-query-mutable.cc](range-sum-query-mutable.cc)|
+|306|[Additive Number](https://leetcode.com/problems/additive-number/)|[additive-number.cc](additive-number.cc)|
 |305|[Number of Islands II](https://leetcode.com/problems/number-of-islands-ii/)|[number-of-islands-ii.cc](number-of-islands-ii.cc)|
 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[range-sum-query-2d-immutable.cc](range-sum-query-2d-immutable.cc)|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)|[range-sum-query-immutable.cc](range-sum-query-immutable.cc)|

@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 298/298 problems.
+Solved 301/301 problems.
 
 ## Database
 
@@ -12,6 +12,9 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[maximum-product-of-word-lengths.cc](maximum-product-of-word-lengths.cc)|
+|317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[shortest-distance-from-all-buildings.cc](shortest-distance-from-all-buildings.cc)|
+|316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[remove-duplicate-letters.cc](remove-duplicate-letters.cc)|
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)|[count-of-smaller-numbers-after-self.cc](count-of-smaller-numbers-after-self.cc)|
 |314|[Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[binary-tree-vertical-order-traversal.cc](binary-tree-vertical-order-traversal.cc)|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/)|[super-ugly-number.cc](super-ugly-number.cc)|

@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 301/301 problems.
+Solved 304/304 problems.
 
 ## Database
 
@@ -12,6 +12,9 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|[create-maximum-number.cc](create-maximum-number.cc)|
+|320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[generalized-abbreviation.cc](generalized-abbreviation.cc)|
+|319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[bulb-switcher.cc](bulb-switcher.cc)|
 |318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[maximum-product-of-word-lengths.cc](maximum-product-of-word-lengths.cc)|
 |317|[Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings/)|[shortest-distance-from-all-buildings.cc](shortest-distance-from-all-buildings.cc)|
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[remove-duplicate-letters.cc](remove-duplicate-letters.cc)|

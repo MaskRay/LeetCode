@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 304/304 problems.
+Solved 309/309 problems.
 
 ## Database
 
@@ -12,6 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[power-of-three.cc](power-of-three.cc)|
+|325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|[maximum-size-subarray-sum-equals-k.cc](maximum-size-subarray-sum-equals-k.cc)|
+|324|[Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[wiggle-sort-ii.cc](wiggle-sort-ii.cc)|
+|323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)|[number-of-connected-components-in-an-undirected-graph.cc](number-of-connected-components-in-an-undirected-graph.cc)|
+|322|[Coin Change](https://leetcode.com/problems/coin-change/)|[coin-change.cc](coin-change.cc)|
 |321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/)|[create-maximum-number.cc](create-maximum-number.cc)|
 |320|[Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)|[generalized-abbreviation.cc](generalized-abbreviation.cc)|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[bulb-switcher.cc](bulb-switcher.cc)|

@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 310/310 problems.
+Solved 313/313 problems.
 
 ## Database
 
@@ -12,6 +12,9 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|330|[Patching Array](https://leetcode.com/problems/patching-array/)|[patching-array.cc](patching-array.cc)|
+|329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[longest-increasing-path-in-a-matrix.cc](longest-increasing-path-in-a-matrix.cc)|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[odd-even-linked-list.cc](odd-even-linked-list.cc)|
 |327|[Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)|[count-of-range-sum.cc](count-of-range-sum.cc)|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three/)|[power-of-three.cc](power-of-three.cc)|
 |325|[Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)|[maximum-size-subarray-sum-equals-k.cc](maximum-size-subarray-sum-equals-k.cc)|

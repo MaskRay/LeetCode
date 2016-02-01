@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 313/313 problems.
+Solved 314/314 problems.
 
 ## Database
 
@@ -12,6 +12,7 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[verify-preorder-serialization-of-a-binary-tree.cc](verify-preorder-serialization-of-a-binary-tree.cc)|
 |330|[Patching Array](https://leetcode.com/problems/patching-array/)|[patching-array.cc](patching-array.cc)|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[longest-increasing-path-in-a-matrix.cc](longest-increasing-path-in-a-matrix.cc)|
 |328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[odd-even-linked-list.cc](odd-even-linked-list.cc)|

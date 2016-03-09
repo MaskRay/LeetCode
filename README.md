@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 314/314 problems.
+Solved 319/319 problems.
 
 ## Database
 
@@ -12,6 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[palindrome-pairs.cc](palindrome-pairs.cc)|
+|335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|[self-crossing.cc](self-crossing.cc)|
+|334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[increasing-triplet-subsequence.cc](increasing-triplet-subsequence.cc)|
+|333|[Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)|[largest-bst-subtree.cc](largest-bst-subtree.cc)|
+|332|[Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[reconstruct-itinerary.cc](reconstruct-itinerary.cc)|
 |331|[Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[verify-preorder-serialization-of-a-binary-tree.cc](verify-preorder-serialization-of-a-binary-tree.cc)|
 |330|[Patching Array](https://leetcode.com/problems/patching-array/)|[patching-array.cc](patching-array.cc)|
 |329|[Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[longest-increasing-path-in-a-matrix.cc](longest-increasing-path-in-a-matrix.cc)|

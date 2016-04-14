@@ -1,3 +1,13 @@
+##  Rising Temperature
+```sql
+select w1.Id from Weather w1 inner join Weather w2 on datediff(w1.Date, w2.Date) = 1 and w1.Temperature > w2.Temperature;
+```
+
+## Delete Duplicate Emails
+```sql
+delete p1 from Person p1 inner join Person p2 where p1.Email = p2.Email and p1.Id > p2.Id;
+```
+
 ## Department Top Three Salaries
 ```sql
 select d.Name Department, e.Name Employee, e.Salary from Employee e join Department d on e.DepartmentId=d.Id

@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 319/319 problems.
+Solved 322/324 problems.
 
 ## Database
 
@@ -12,6 +12,9 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[nested-list-weight-sum.cc](nested-list-weight-sum.cc)|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[counting-bits.cc](counting-bits.cc)|
+|337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[house-robber-iii.cc](house-robber-iii.cc)|
 |336|[Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)|[palindrome-pairs.cc](palindrome-pairs.cc)|
 |335|[Self Crossing](https://leetcode.com/problems/self-crossing/)|[self-crossing.cc](self-crossing.cc)|
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[increasing-triplet-subsequence.cc](increasing-triplet-subsequence.cc)|

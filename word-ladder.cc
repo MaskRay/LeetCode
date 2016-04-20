@@ -30,7 +30,7 @@ public:
   }
 };
 
-///
+/// hamming distance trick
 
 class Solution {
   bool hamming_one(const string &a, const string &b) {
@@ -82,7 +82,7 @@ public:
   }
 };
 
-/// bidirectional BFS
+/// bidirectional BFS + hamming distance trick
 
 class Solution {
   bool hamming_one(const string &a, const string &b) {
@@ -143,4 +143,3 @@ public:
     return 0;
   }
 };
-

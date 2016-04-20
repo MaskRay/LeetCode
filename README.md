@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 322/324 problems.
+Solved 326/326 problems.
 
 ## Database
 
@@ -12,6 +12,10 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|343|[Integer Break](https://leetcode.com/problems/integer-break/)|[integer-break.cc](integer-break.cc)|
+|342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[power-of-four.cc](power-of-four.cc)|
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[flatten-nested-list-iterator.cc](flatten-nested-list-iterator.cc)|
+|340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)|[longest-substring-with-at-most-k-distinct-characters.cc](longest-substring-with-at-most-k-distinct-characters.cc)|
 |339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[nested-list-weight-sum.cc](nested-list-weight-sum.cc)|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[counting-bits.cc](counting-bits.cc)|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/)|[house-robber-iii.cc](house-robber-iii.cc)|

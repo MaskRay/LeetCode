@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 326/326 problems.
+Solved 330/330 problems.
 
 ## Database
 
@@ -12,6 +12,10 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[top-k-frequent-elements.cc](top-k-frequent-elements.cc)|
+|346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[moving-average-from-data-stream.cc](moving-average-from-data-stream.cc)|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[reverse-vowels-of-a-string.cc](reverse-vowels-of-a-string.cc)|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[reverse-string.cc](reverse-string.cc)|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/)|[integer-break.cc](integer-break.cc)|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/)|[power-of-four.cc](power-of-four.cc)|
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[flatten-nested-list-iterator.cc](flatten-nested-list-iterator.cc)|

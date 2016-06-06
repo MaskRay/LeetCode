@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 330/330 problems.
+Solved 336/336 problems.
 
 ## Database
 
@@ -12,6 +12,12 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[design-snake-game.cc](design-snake-game.cc)|
+|352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[data-stream-as-disjoint-intervals.cc](data-stream-as-disjoint-intervals.cc)|
+|351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|[android-unlock-patterns.cc](android-unlock-patterns.cc)|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[intersection-of-two-arrays-ii.cc](intersection-of-two-arrays-ii.cc)|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[intersection-of-two-arrays.cc](intersection-of-two-arrays.cc)|
+|348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/)|[design-tic-tac-toe.cc](design-tic-tac-toe.cc)|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[top-k-frequent-elements.cc](top-k-frequent-elements.cc)|
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[moving-average-from-data-stream.cc](moving-average-from-data-stream.cc)|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[reverse-vowels-of-a-string.cc](reverse-vowels-of-a-string.cc)|

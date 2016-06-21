@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 336/336 problems.
+Solved 345/345 problems.
 
 ## Database
 
@@ -12,6 +12,15 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)|[design-hit-counter.cc](design-hit-counter.cc)|
+|361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)|[bomb-enemy.cc](bomb-enemy.cc)|
+|360|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|[sort-transformed-array.cc](sort-transformed-array.cc)|
+|359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[logger-rate-limiter.cc](logger-rate-limiter.cc)|
+|358|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)|[rearrange-string-k-distance-apart.cc](rearrange-string-k-distance-apart.cc)|
+|357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[count-numbers-with-unique-digits.cc](count-numbers-with-unique-digits.cc)|
+|356|[Line Reflection](https://leetcode.com/problems/line-reflection/)|[line-reflection.cc](line-reflection.cc)|
+|355|[Design Twitter](https://leetcode.com/problems/design-twitter/)|[design-twitter.cc](design-twitter.cc)|
+|354|[Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[russian-doll-envelopes.cc](russian-doll-envelopes.cc)|
 |353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[design-snake-game.cc](design-snake-game.cc)|
 |352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)|[data-stream-as-disjoint-intervals.cc](data-stream-as-disjoint-intervals.cc)|
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/)|[android-unlock-patterns.cc](android-unlock-patterns.cc)|

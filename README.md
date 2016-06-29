@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 345/345 problems.
+Solved 353/353 problems.
 
 ## Database
 
@@ -12,6 +12,14 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|370|[Range Addition](https://leetcode.com/problems/range-addition/)|[range-addition.cc](range-addition.cc)|
+|369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/)|[plus-one-linked-list.cc](plus-one-linked-list.cc)|
+|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[largest-divisible-subset.cc](largest-divisible-subset.cc)|
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[valid-perfect-square.cc](valid-perfect-square.cc)|
+|366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/)|[find-leaves-of-binary-tree.cc](find-leaves-of-binary-tree.cc)|
+|365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)|[water-and-jug-problem.cc](water-and-jug-problem.cc)|
+|364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)|[nested-list-weight-sum-ii.cc](nested-list-weight-sum-ii.cc)|
+|363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k/)|[max-sum-of-sub-matrix-no-larger-than-k.cc](max-sum-of-sub-matrix-no-larger-than-k.cc)|
 |362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/)|[design-hit-counter.cc](design-hit-counter.cc)|
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/)|[bomb-enemy.cc](bomb-enemy.cc)|
 |360|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/)|[sort-transformed-array.cc](sort-transformed-array.cc)|

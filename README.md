@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 357/357 problems.
+Solved 368/368 problems.
 
 ## Database
 
@@ -12,6 +12,17 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[mini-parser.cc](mini-parser.cc)|
+|384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[shuffle-an-array.cc](shuffle-an-array.cc)|
+|383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[ransom-note.cc](ransom-note.cc)|
+|382|[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)|[linked-list-random-node.cc](linked-list-random-node.cc)|
+|381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)|[insert-delete-getrandom-o1-duplicates-allowed.cc](insert-delete-getrandom-o1-duplicates-allowed.cc)|
+|380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[insert-delete-getrandom-o1.cc](insert-delete-getrandom-o1.cc)|
+|379|[Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[design-phone-directory.cc](design-phone-directory.cc)|
+|378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[kth-smallest-element-in-a-sorted-matrix.cc](kth-smallest-element-in-a-sorted-matrix.cc)|
+|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[combination-sum-iv.cc](combination-sum-iv.cc)|
+|376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)|[wiggle-subsequence.cc](wiggle-subsequence.cc)|
+|375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)|[guess-number-higher-or-lower-ii.cc](guess-number-higher-or-lower-ii.cc)|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)|[guess-number-higher-or-lower.cc](guess-number-higher-or-lower.cc)|
 |373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[find-k-pairs-with-smallest-sums.cc](find-k-pairs-with-smallest-sums.cc)|
 |372|[Super Pow](https://leetcode.com/problems/super-pow/)|[super-pow.cc](super-pow.cc)|

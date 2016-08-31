@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 368/368 problems.
+Solved 373/373 problems.
 
 ## Database
 
@@ -12,6 +12,11 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|391|[Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)|[perfect-rectangle.cc](perfect-rectangle.cc)|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[find-the-difference.cc](find-the-difference.cc)|
+|388|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)|[longest-absolute-file-path.cc](longest-absolute-file-path.cc)|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[first-unique-character-in-a-string.cc](first-unique-character-in-a-string.cc)|
+|386|[Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)|[lexicographical-numbers.cc](lexicographical-numbers.cc)|
 |385|[Mini Parser](https://leetcode.com/problems/mini-parser/)|[mini-parser.cc](mini-parser.cc)|
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)|[shuffle-an-array.cc](shuffle-an-array.cc)|
 |383|[Ransom Note](https://leetcode.com/problems/ransom-note/)|[ransom-note.cc](ransom-note.cc)|

@@ -2,18 +2,21 @@
 class Solution {
 public:
   ListNode* removeElements(ListNode* x, int val) {
-    ListNode *yy, **y = &yy, *t;
-    while (x)
-      if (x->val == val) {
-        t = x->next;
-        delete x;
-        x = t;
+    ListNode *y=x, **last_p = &x;
+    //invariant: 
+    // y: point to enumerate
+    // last_p: points to the pointer from which we come to y last time
+    //         (can be list head)
+
+    while (y)
+      if (y->val == val) {
+        *last_p = y->next;
+        delete y;
+        y = *last_p;
       } else {
-        *y = x;
-        y = &x->next;
-        x = x->next;
+        last_p = &y->next;
+        y = y->next;
       }
-    *y = 0;
-    return yy;
+    return x;
   }
 };

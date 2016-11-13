@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 406/421 problems.
+Solved 418/421 problems.
 
 ## Database
 
@@ -13,11 +13,21 @@ See [database.md](database.md)
 | # | Title | Solution |
 |---| ----- | -------- |
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)|[minimum-moves-to-equal-array-elements.cc](minimum-moves-to-equal-array-elements.cc)|
+|452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|[minimum-number-of-arrows-to-burst-balloons.cc](minimum-number-of-arrows-to-burst-balloons.cc)|
 |447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs)|[number-of-boomerangs.cc](number-of-boomerangs.cc)|
+|446|[Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[arithmetic-slices-ii-subsequence.cc](arithmetic-slices-ii-subsequence.cc)|
+|444|[Sequence Reconstruction](https://leetcode.com/problems/sequence-reconstruction)|[sequence-reconstruction.cc](sequence-reconstruction.cc)|
+|441|[Arranging Coins](https://leetcode.com/problems/arranging-coins)|[arranging-coins.cc](arranging-coins.cc)|
+|440|[K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)|[k-th-smallest-in-lexicographical-order.cc](k-th-smallest-in-lexicographical-order.cc)|
+|439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser)|[ternary-expression-parser.cc](ternary-expression-parser.cc)|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[find-all-anagrams-in-a-string.cc](find-all-anagrams-in-a-string.cc)|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii)|[path-sum-iii.cc](path-sum-iii.cc)|
 |436|[Find Right Interval](https://leetcode.com/problems/find-right-interval)|[find-right-interval.cc](find-right-interval.cc)|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[non-overlapping-intervals.cc](non-overlapping-intervals.cc)|
+|432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure)|[all-oone-data-structure.cc](all-oone-data-structure.cc)|
+|424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[longest-repeating-character-replacement.cc](longest-repeating-character-replacement.cc)|
+|423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english)|[reconstruct-original-digits-from-english.cc](reconstruct-original-digits-from-english.cc)|
+|422|[Valid Word Square](https://leetcode.com/problems/valid-word-square)|[valid-word-square.cc](valid-word-square.cc)|
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)|[maximum-xor-of-two-numbers-in-an-array.cc](maximum-xor-of-two-numbers-in-an-array.cc)|
 |420|[Strong Password Checker](https://leetcode.com/problems/strong-password-checker)|[strong-password-checker.cc](strong-password-checker.cc)|
 |419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board)|[battleships-in-a-board.cc](battleships-in-a-board.cc)|
@@ -29,6 +39,8 @@ See [database.md](database.md)
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz)|[fizz-buzz.cc](fizz-buzz.cc)|
 |410|[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum)|[split-array-largest-sum.cc](split-array-largest-sum.cc)|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[longest-palindrome.cc](longest-palindrome.cc)|
+|408|[Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)|[valid-word-abbreviation.cc](valid-word-abbreviation.cc)|
+|407|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii)|[trapping-rain-water-ii.cc](trapping-rain-water-ii.cc)|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)|[queue-reconstruction-by-height.cc](queue-reconstruction-by-height.cc)|
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|[convert-a-number-to-hexadecimal.cc](convert-a-number-to-hexadecimal.cc)|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)|[sum-of-left-leaves.cc](sum-of-left-leaves.cc)|

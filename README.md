@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 418/421 problems.
+Solved 426/429 problems.
 
 ## Database
 
@@ -12,6 +12,14 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)|[optimal-account-balancing.cc](optimal-account-balancing.cc)|
+|464|[Can I Win](https://leetcode.com/problems/can-i-win)|[can-i-win.cc](can-i-win.cc)|
+|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[island-perimeter.cc](island-perimeter.cc)|
+|462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)|[minimum-moves-to-equal-array-elements-ii.cc](minimum-moves-to-equal-array-elements-ii.cc)|
+|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern)|[repeated-substring-pattern.cc](repeated-substring-pattern.cc)|
+|456|[132 Pattern](https://leetcode.com/problems/132-pattern)|[132-pattern.cc](132-pattern.cc)|
+|455|[Assign Cookies](https://leetcode.com/problems/assign-cookies)|[assign-cookies.cc](assign-cookies.cc)|
+|454|[4Sum II](https://leetcode.com/problems/4sum-ii)|[4sum-ii.cc](4sum-ii.cc)|
 |453|[Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements)|[minimum-moves-to-equal-array-elements.cc](minimum-moves-to-equal-array-elements.cc)|
 |452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)|[minimum-number-of-arrows-to-burst-balloons.cc](minimum-number-of-arrows-to-burst-balloons.cc)|
 |447|[Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs)|[number-of-boomerangs.cc](number-of-boomerangs.cc)|

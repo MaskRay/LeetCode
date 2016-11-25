@@ -6,11 +6,10 @@ public:
   int maxProfit(vector<int>& prices) {
     if (prices.empty()) return 0;
     int f = - prices[0], g = 0, gg = 0;
-    FOR(i, 1, prices.size()) {
-      int t = gg;
-      gg = g;
+    FOR(i, 1, prices.size()) {  
       g = max(g, f+prices[i]);
       f = max(f, t-prices[i]);
+      gg = g;
     }
     return g;
   }

@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 426/429 problems.
+Solved 436/442 problems.
 
 ## Database
 
@@ -12,10 +12,19 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)|[total-hamming-distance.cc](total-hamming-distance.cc)|
+|475|[Heaters](https://leetcode.com/problems/heaters)|[heaters.cc](heaters.cc)|
+|474|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes)|[ones-and-zeroes.cc](ones-and-zeroes.cc)|
+|473|[Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square)|[matchsticks-to-square.cc](matchsticks-to-square.cc)|
+|472|[Concatenated Words](https://leetcode.com/problems/concatenated-words)|[concatenated-words.cc](concatenated-words.cc)|
+|468|[Validate IP Address](https://leetcode.com/problems/validate-ip-address)|[validate-ip-address.cc](validate-ip-address.cc)|
+|467|[Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)|[unique-substrings-in-wraparound-string.cc](unique-substrings-in-wraparound-string.cc)|
+|466|[Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)|[count-the-repetitions.cc](count-the-repetitions.cc)|
 |465|[Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)|[optimal-account-balancing.cc](optimal-account-balancing.cc)|
 |464|[Can I Win](https://leetcode.com/problems/can-i-win)|[can-i-win.cc](can-i-win.cc)|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter)|[island-perimeter.cc](island-perimeter.cc)|
 |462|[Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)|[minimum-moves-to-equal-array-elements-ii.cc](minimum-moves-to-equal-array-elements-ii.cc)|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance)|[hamming-distance.cc](hamming-distance.cc)|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern)|[repeated-substring-pattern.cc](repeated-substring-pattern.cc)|
 |456|[132 Pattern](https://leetcode.com/problems/132-pattern)|[132-pattern.cc](132-pattern.cc)|
 |455|[Assign Cookies](https://leetcode.com/problems/assign-cookies)|[assign-cookies.cc](assign-cookies.cc)|
@@ -32,6 +41,7 @@ See [database.md](database.md)
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii)|[path-sum-iii.cc](path-sum-iii.cc)|
 |436|[Find Right Interval](https://leetcode.com/problems/find-right-interval)|[find-right-interval.cc](find-right-interval.cc)|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[non-overlapping-intervals.cc](non-overlapping-intervals.cc)|
+|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)|[number-of-segments-in-a-string.cc](number-of-segments-in-a-string.cc)|
 |432|[All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure)|[all-oone-data-structure.cc](all-oone-data-structure.cc)|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[longest-repeating-character-replacement.cc](longest-repeating-character-replacement.cc)|
 |423|[Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english)|[reconstruct-original-digits-from-english.cc](reconstruct-original-digits-from-english.cc)|

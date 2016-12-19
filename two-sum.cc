@@ -11,8 +11,8 @@ public:
           int x = r[i], y = r[j];
           r.clear();
           if (x > y) swap(x, y);
-          r.push_back(x+1);
-          r.push_back(y+1);
+          r.push_back(x);
+          r.push_back(y);
           break;
         }
       }

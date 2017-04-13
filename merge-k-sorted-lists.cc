@@ -11,20 +11,14 @@ public:
     for (auto x: lists)
       if (x)
         pq.push(x);
-    ListNode *head = NULL, *tail = NULL;
+    ListNode *head = NULL, **cur = &head;
     while (! pq.empty()) {
-      ListNode *p = pq.top();
+      *cur = pq.top();
       pq.pop();
-      int x = p->val;
-      if (! head)
-        head = tail = new ListNode(x);
-      else {
-        tail->next = new ListNode(x);
-        tail = tail->next;
-      }
-      p = p->next;
-      if (p)
-        pq.push(p);
+      ListNode *x = (*cur)->next;
+      if (x)
+        pq.push(x);
+      cur = &((*cur)->next);
     }
     return head;
   }

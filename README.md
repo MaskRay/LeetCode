@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 454/495 problems.
+Solved 482/559 problems.
 
 ## Database
 
@@ -12,10 +12,39 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|635|[Design Log Storage System](https://leetcode.com/problems/design-log-storage-system)|[design-log-storage-system.cc](design-log-storage-system.cc)|
+|634|[Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array)|[find-the-derangement-of-an-array.cc](find-the-derangement-of-an-array.cc)|
+|633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers)|[sum-of-square-numbers.cc](sum-of-square-numbers.cc)|
+|631|[Design Excel Sum Formula](https://leetcode.com/problems/design-excel-sum-formula)|[design-excel-sum-formula.cc](design-excel-sum-formula.cc)|
+|630|[Course Schedule III](https://leetcode.com/problems/course-schedule-iii)|[course-schedule-iii.cc](course-schedule-iii.cc)|
+|629|[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array)|[k-inverse-pairs-array.cc](k-inverse-pairs-array.cc)|
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers)|[maximum-product-of-three-numbers.cc](maximum-product-of-three-numbers.cc)|
+|617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[merge-two-binary-trees.cc](merge-two-binary-trees.cc)|
+|616|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string)|[add-bold-tag-in-string.cc](add-bold-tag-in-string.cc)|
+|611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number)|[valid-triangle-number.cc](valid-triangle-number.cc)|
+|604|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator)|[design-compressed-string-iterator.cc](design-compressed-string-iterator.cc)|
+|600|[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones)|[non-negative-integers-without-consecutive-ones.cc](non-negative-integers-without-consecutive-ones.cc)|
+|599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists)|[minimum-index-sum-of-two-lists.cc](minimum-index-sum-of-two-lists.cc)|
+|598|[Range Addition II](https://leetcode.com/problems/range-addition-ii)|[range-addition-ii.cc](range-addition-ii.cc)|
+|594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence)|[longest-harmonious-subsequence.cc](longest-harmonious-subsequence.cc)|
+|593|[Valid Square](https://leetcode.com/problems/valid-square)|[valid-square.cc](valid-square.cc)|
+|592|[Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction)|[fraction-addition-and-subtraction.cc](fraction-addition-and-subtraction.cc)|
+|588|[Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system)|[design-in-memory-file-system.cc](design-in-memory-file-system.cc)|
+|587|[Erect the Fence](https://leetcode.com/problems/erect-the-fence)|[erect-the-fence.cc](erect-the-fence.cc)|
+|583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)|[delete-operation-for-two-strings.cc](delete-operation-for-two-strings.cc)|
+|582|[Kill Process](https://leetcode.com/problems/kill-process)|[kill-process.cc](kill-process.cc)|
+|581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)|[shortest-unsorted-continuous-subarray.cc](shortest-unsorted-continuous-subarray.cc)|
+|575|[Distribute Candies](https://leetcode.com/problems/distribute-candies)|[distribute-candies.cc](distribute-candies.cc)|
+|565|[Array Nesting](https://leetcode.com/problems/array-nesting)|[array-nesting.cc](array-nesting.cc)|
+|556|[Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii)|[next-greater-element-iii.cc](next-greater-element-iii.cc)|
+|553|[Optimal Division](https://leetcode.com/problems/optimal-division)|[optimal-division.cc](optimal-division.cc)|
+|552|[Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii)|[student-attendance-record-ii.cc](student-attendance-record-ii.cc)|
 |533|[Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii)|[lonely-pixel-ii.cc](lonely-pixel-ii.cc)|
 |531|[Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i)|[lonely-pixel-i.cc](lonely-pixel-i.cc)|
 |514|[Freedom Trail](https://leetcode.com/problems/freedom-trail)|[freedom-trail.cc](freedom-trail.cc)|
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum)|[most-frequent-subtree-sum.cc](most-frequent-subtree-sum.cc)|
+|507|[Perfect Number](https://leetcode.com/problems/perfect-number)|[perfect-number.cc](perfect-number.cc)|
+|504|[Base 7](https://leetcode.com/problems/base-7)|[base-7.cc](base-7.cc)|
 |502|[IPO](https://leetcode.com/problems/ipo)|[ipo.cc](ipo.cc)|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree)|[find-mode-in-binary-search-tree.cc](find-mode-in-binary-search-tree.cc)|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row)|[keyboard-row.cc](keyboard-row.cc)|
@@ -417,7 +446,6 @@ See [database.md](database.md)
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii)|[n-queens-ii.cc](n-queens-ii.cc)|
 |51|[N-Queens](https://leetcode.com/problems/n-queens)|[n-queens.cc](n-queens.cc)|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[powx-n.cc](powx-n.cc)|
-|49|[Group Anagrams](https://leetcode.com/problems/anagrams)|[anagrams.cc](anagrams.cc)|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[rotate-image.cc](rotate-image.cc)|
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii)|[permutations-ii.cc](permutations-ii.cc)|
 |46|[Permutations](https://leetcode.com/problems/permutations)|[permutations.cc](permutations.cc)|

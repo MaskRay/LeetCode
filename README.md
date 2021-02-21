@@ -2,7 +2,7 @@
 
 [LeetCode solutions](http://maskray.me/blog/2014-06-29-leetcode-solutions) gives some thoughts on selected problems.
 
-Solved 482/559 problems.
+Solved 489/1771 problems.
 
 ## Database
 
@@ -12,6 +12,16 @@ See [database.md](database.md)
 
 | # | Title | Solution |
 |---| ----- | -------- |
+|1897|[Maximize Palindrome Length From Subsequences](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences)|[maximize-palindrome-length-from-subsequences.cc](maximize-palindrome-length-from-subsequences.cc)|
+|1896|[Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations)|[maximum-score-from-performing-multiplication-operations.cc](maximum-score-from-performing-multiplication-operations.cc)|
+|1895|[Minimum Number of Operations to Move All Balls to Each Box](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box)|[minimum-number-of-operations-to-move-all-balls-to-each-box.cc](minimum-number-of-operations-to-move-all-balls-to-each-box.cc)|
+|1894|[Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately)|[merge-strings-alternately.cc](merge-strings-alternately.cc)|
+|1876|[Map of Highest Peak](https://leetcode.com/problems/map-of-highest-peak)|[map-of-highest-peak.cc](map-of-highest-peak.cc)|
+|1875|[Tree of Coprimes](https://leetcode.com/problems/tree-of-coprimes)|[tree-of-coprimes.cc](tree-of-coprimes.cc)|
+|1874|[Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array)|[form-array-by-concatenating-subarrays-of-another-array.cc](form-array-by-concatenating-subarrays-of-another-array.cc)|
+|916|[Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index)|[decoded-string-at-index.cc](decoded-string-at-index.cc)|
+|830|[Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area)|[largest-triangle-area.cc](largest-triangle-area.cc)|
+|673|[Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence)|[number-of-longest-increasing-subsequence.cc](number-of-longest-increasing-subsequence.cc)|
 |635|[Design Log Storage System](https://leetcode.com/problems/design-log-storage-system)|[design-log-storage-system.cc](design-log-storage-system.cc)|
 |634|[Find the Derangement of An Array](https://leetcode.com/problems/find-the-derangement-of-an-array)|[find-the-derangement-of-an-array.cc](find-the-derangement-of-an-array.cc)|
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers)|[sum-of-square-numbers.cc](sum-of-square-numbers.cc)|
@@ -149,7 +159,6 @@ See [database.md](database.md)
 |366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree)|[find-leaves-of-binary-tree.cc](find-leaves-of-binary-tree.cc)|
 |365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem)|[water-and-jug-problem.cc](water-and-jug-problem.cc)|
 |364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)|[nested-list-weight-sum-ii.cc](nested-list-weight-sum-ii.cc)|
-|363|[Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-sub-matrix-no-larger-than-k)|[max-sum-of-sub-matrix-no-larger-than-k.cc](max-sum-of-sub-matrix-no-larger-than-k.cc)|
 |362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter)|[design-hit-counter.cc](design-hit-counter.cc)|
 |361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy)|[bomb-enemy.cc](bomb-enemy.cc)|
 |360|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array)|[sort-transformed-array.cc](sort-transformed-array.cc)|
@@ -300,7 +309,6 @@ See [database.md](database.md)
 |214|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome)|[shortest-palindrome.cc](shortest-palindrome.cc)|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii)|[house-robber-ii.cc](house-robber-ii.cc)|
 |212|[Word Search II](https://leetcode.com/problems/word-search-ii)|[word-search-ii.cc](word-search-ii.cc)|
-|211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design)|[add-and-search-word-data-structure-design.cc](add-and-search-word-data-structure-design.cc)|
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[course-schedule-ii.cc](course-schedule-ii.cc)|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[minimum-size-subarray-sum.cc](minimum-size-subarray-sum.cc)|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree)|[implement-trie-prefix-tree.cc](implement-trie-prefix-tree.cc)|
@@ -460,7 +468,6 @@ See [database.md](database.md)
 |37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[sudoku-solver.cc](sudoku-solver.cc)|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[valid-sudoku.cc](valid-sudoku.cc)|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[search-insert-position.cc](search-insert-position.cc)|
-|34|[Search for a Range](https://leetcode.com/problems/search-for-a-range)|[search-for-a-range.cc](search-for-a-range.cc)|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[search-in-rotated-sorted-array.cc](search-in-rotated-sorted-array.cc)|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)|[longest-valid-parentheses.cc](longest-valid-parentheses.cc)|
 |31|[Next Permutation](https://leetcode.com/problems/next-permutation)|[next-permutation.cc](next-permutation.cc)|

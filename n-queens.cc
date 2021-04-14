@@ -1,11 +1,11 @@
 // N-Queens
 class Solution {
 private:
-  int c, n;
+  int n;
   vector<string> s;
   vector<vector<string>> q;
 public:
-  vector<vector<string> > solveNQueens(int n) {
+  vector<vector<string>> solveNQueens(int n) {
     q.clear();
     this->n = n;
     s.assign(n, string(n, '.'));

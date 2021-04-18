@@ -4,7 +4,6 @@
 class Solution {
 public:
   void nextPermutation(vector<int> &num) {
-    if (num.size() <= 1) return;
     ROF(i, 0, num.size()-1)
       if (num[i] < num[i+1]) {
         int j = num.size();

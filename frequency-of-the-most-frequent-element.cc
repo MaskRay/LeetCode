@@ -5,15 +5,13 @@
 class Solution {
 public:
   int maxFrequency(vector<int>& a, int k) {
-    long n = a.size(), j = 0, ans = 0;
+    long n = a.size(), j = 0, ans = 0, s = k;
     sort(a.begin(), a.end());
-    vector<long> b(n+1);
-    REP(i, n)
-      b[i+1] = b[i]+a[i];
     REP(i, n) {
-      while ((i-j)*a[i]-(b[i]-b[j]) > k)
-        j++;
+      while ((i-j)*a[i] > s)
+        s -= a[j++];
       ans = max(ans, i-j+1);
+      s += a[i];
     }
     return ans;
   }

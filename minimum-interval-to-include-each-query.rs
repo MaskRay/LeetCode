@@ -29,7 +29,7 @@ impl Solution {
 
 /// segment tree with range modification but no query
 impl Solution {
-    pub fn min_interval(mut intervals: Vec<Vec<i32>>, queries: Vec<i32>) -> Vec<i32> {
+    pub fn min_interval(intervals: Vec<Vec<i32>>, queries: Vec<i32>) -> Vec<i32> {
         use std::{i32,usize};
         let mut sorted = vec![];
         for itv in intervals.iter() {
@@ -39,17 +39,16 @@ impl Solution {
         sorted.sort_unstable();
         sorted.dedup();
         let n = sorted.len();
-        // partition_point is unstable
+        // partition_point is stable since 1.52.0
         let deflate = |key| -> usize { sorted.binary_search(&key).unwrap_or_else(|i| i) };
 
         let mut seg = vec![i32::MAX; 2*n];
-        intervals.sort_unstable_by_key(|itv| itv[1]-itv[0]);
         for itv in intervals.iter() {
             let mut l = deflate(itv[0]) + n-1;
             let mut r = deflate(itv[1]+1) + n;
             while (l ^ r) != 1 {
-                if l%2 == 0 && seg[l^1] == i32::MAX { seg[l^1] = itv[1]-itv[0]+1; }
-                if r%2 != 0 && seg[r^1] == i32::MAX { seg[r^1] = itv[1]-itv[0]+1; }
+                if l%2 == 0 { seg[l^1] = seg[l^1].min(itv[1]-itv[0]+1); }
+                if r%2 != 0 { seg[r^1] = seg[r^1].min(itv[1]-itv[0]+1); }
                 l /= 2;
                 r /= 2;
             }
@@ -58,12 +57,10 @@ impl Solution {
             seg[i] = seg[i].min(seg[i/2]);
         }
 
-        let mut ans = vec![];
-        for q in queries {
+        queries.into_iter().map(|q| {
             let i = deflate(q+1)-1;
-            ans.push(if i == usize::MAX || seg[n+i] == i32::MAX { -1 } else { seg[n+i] });
-        }
-        ans
+            if i == usize::MAX || seg[n+i] == i32::MAX { -1 } else { seg[n+i] }
+        }).collect()
     }
 }
 
@@ -79,7 +76,7 @@ impl Solution {
         sorted.sort_unstable();
         sorted.dedup();
         let n = sorted.len();
-        // partition_point is unstable
+        // partition_point is stable since 1.52.0
         let deflate = |key| -> usize { sorted.binary_search(&key).unwrap_or_else(|i| i) };
 
         let mut uf: Vec<usize> = (0..n).collect();
@@ -103,11 +100,9 @@ impl Solution {
             }
         }
 
-        let mut ans = vec![];
-        for q in queries {
+        queries.into_iter().map(|q| {
             let i = deflate(q+1)-1;
-            ans.push(if i == usize::MAX { -1 } else { len[i] });
-        }
-        ans
+            if i == usize::MAX { -1 } else { len[i] }
+        }).collect()
     }
 }

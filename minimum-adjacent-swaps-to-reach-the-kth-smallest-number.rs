@@ -15,22 +15,10 @@ impl Solution {
         for _ in 0..k {
             Self::next_permutation(&mut num1);
         }
-        let n = num.len();
-        let mut a = vec![0; n];
-        for i in 0..n {
-            for j in 0..n {
-                if num[j] == num1[i] {
-                    num[j] = b' ';
-                    a[i] = j;
-                    break;
-                }
-            }
-        }
-        let mut ans = 0;
-        for j in 0..n {
-            for i in 0..j {
-                if a[i] > a[j] {
-                    ans += 1; } } }
-        ans
+        num1.into_iter().map(|x| {
+            let j = num.iter().position(|&y| x == y).unwrap();
+            num.remove(j);
+            j as i32
+        }).sum()
     }
 }

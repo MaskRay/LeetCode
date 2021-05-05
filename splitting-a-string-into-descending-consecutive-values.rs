@@ -1,31 +1,47 @@
 impl Solution {
-    fn next_permutation(a: &mut [u8]) {
-        for i in (0..a.len()-1).rev() {
-            if a[i] >= a[i+1] { continue; }
-            let mut j = a.len()-1;
-            while a[i] >= a[j] { j -= 1; }
-            a.swap(i, j);
-            a[i+1..].reverse();
-            break;
-        }
-    }
-    pub fn get_min_swaps(num: String, k: i32) -> i32 {
-        let mut num: Vec<u8> = num.as_bytes().to_vec();
-        let mut num1 = num.clone();
-        for _ in 0..k {
-            Self::next_permutation(&mut num1);
-        }
-        let n = num.len();
-        let mut ans = 0;
-        for i in 0..n {
-            for j in 0..n {
-                if num[j] == num1[i] {
-                    num.remove(j);
-                    ans += j;
-                    break;
+    pub fn split_string(s: String) -> bool {
+        let s = s.as_bytes();
+        let mut xx = 0;
+        for mut i in 0..s.len()-1 {
+            xx = xx*10 + (s[i]-b'0') as usize;
+            let mut x = xx;
+            let mut y = 0;
+            loop {
+                i += 1;
+                if i == s.len() { break; }
+                y = y*10 + (s[i]-b'0') as usize;
+                if y >= x { break; }
+                if y+1 == x && (y != 0 || i+1 == s.len()) {
+                    if i+1 == s.len() { return true; }
+                    x = y;
+                    y = 0;
                 }
             }
         }
-        ans as i32
+        false
+    }
+}
+
+///
+
+impl Solution {
+    pub fn split_string(s: String) -> bool {
+        fn dfs(s: &[u8], x: usize) -> bool {
+            if s.is_empty() { return true; }
+            let mut y = 0;
+            for i in 0..s.len() {
+                y = y*10 + (s[i]-b'0') as usize;
+                if y >= x { break; }
+                if y+1 == x && dfs(&s[i+1..], y) { return true; }
+            }
+            false
+        }
+        let s = s.as_bytes();
+        let mut x = 0;
+        for i in 0..s.len()-1 {
+            x = x*10 + (s[i]-b'0') as usize;
+            if dfs(&s[i+1..], x) { return true; }
+        }
+        false
     }
 }

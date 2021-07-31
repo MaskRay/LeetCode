@@ -25,7 +25,7 @@ public:
       if (TreeNode *y = x->left) {
         while (y->right && y->right != x)
           y = y->right;
-        if (y->right != x) {
+        if (!y->right) {
           y->right = x;
           x = x->left;
           continue;

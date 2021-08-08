@@ -8,10 +8,10 @@ impl Solution {
                     self.ret.push(self.r.clone());
                     return;
                 }
-                for j in 0..self.s.len()-i {
-                    if (if j%2==0 { &self.r1 } else { &self.r0 })[i+j/2] > j/2 {
-                        self.r.push(self.s[i..i+j+1].to_string());
-                        self.dfs(i+j+1);
+                for j in 1..=self.s.len()-i {
+                    if (if j%2!=0 { &self.r1 } else { &self.r0 })[i+j/2] >= (j+1)/2 {
+                        self.r.push(self.s[i..i+j].to_string());
+                        self.dfs(i+j);
                         self.r.pop();
                     }
                 }
@@ -34,7 +34,7 @@ impl Solution {
             c.r0[i] = if i < g && c.r0[2*f-i] != g-i { c.r0[2*f-i].min(g-i) } else {
                 f = i;
                 g = g.max(i);
-                while g+1 < n && 2*f >= g && a[2*f-g] == a[g+1] { g += 1; }
+                while g < n && 2*f >= g+1 && a[2*f-1-g] == a[g] { g += 1; }
                 g-f
             }
         }

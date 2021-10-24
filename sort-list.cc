@@ -5,10 +5,8 @@
 class Solution {
 public:
   ListNode *sortList(ListNode *head) {
-    if (! head)
-      return head;
     for(;;) {
-      ListNode *p = head, *q, *r, *s, *head2 = NULL, *l = NULL;
+      ListNode *p = head, *q, *r, *s, *head2 = NULL, **l = &head2;
       bool ok = true;
       while (p) {
         q = p;
@@ -25,23 +23,17 @@ public:
           ok = false;
         while (p != q || r != s)
           if (r == s || p != q && p->val < r->val) {
-            if (l)
-              l->next = p;
-            else
-              head2 = p;
-            l = p;
+            *l = p;
+            l = &p->next;
             p = p->next;
           } else {
-            if (l)
-              l->next = r;
-            else
-              head2 = r;
-            l = r;
+            *l = r;
+            l = &r->next;
             r = r->next;
           }
         p = s;
       }
-      l->next = NULL;
+      *l = NULL;
       head = head2;
       if (ok) break;
     }

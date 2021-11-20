@@ -1,11 +1,10 @@
 // Check if an Original String Exists Given Two Encoded Strings
-const int P = 200003;
-struct HNode {int key; bool val; HNode *next; } pool[P], *head[P], *pit;
+const int P = 32768;
+struct HNode {int key; bool val; HNode *next; } pool[P*2], *head[P], *allo;
 
 class Solution {
   static const int BASE = 999*10;
   string s1, s2;
-  unordered_map<unsigned, char> memo;
   bool f(int i, int j, int p) {
     int key = ((p+BASE)*41+i)*41+j, hash = key%P;
     for (HNode *x = head[hash]; x; x = x->next)
@@ -36,16 +35,16 @@ class Solution {
       } else if (s1[i] == s2[j])
         ret = f(i+1, j+1, p);
     }
-    HNode *x = pit == end(pool) ? new HNode : pit++;
+    HNode *x = allo == end(pool) ? new HNode : allo++;
     *x = {key, ret, head[hash]};
     head[hash] = x;
     return ret;
   }
 public:
   bool possiblyEquals(string s1, string s2) {
-    this->s1 = s1;
-    this->s2 = s2;
-    pit = pool;
+    this->s1 = move(s1);
+    this->s2 = move(s2);
+    allo = pool;
     fill_n(head, sizeof(head)/sizeof(*head), nullptr);
     return f(0, 0, 0);
   }

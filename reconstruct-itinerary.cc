@@ -1,21 +1,22 @@
 // Reconstruct Itinerary
-/// Hierholzer's algorithm
+/// Hierholzer's algorithm (lexicographical order)
 
 class Solution {
-  unordered_map<string, multiset<string>> m;
+  unordered_map<string, vector<string>> m;
   vector<string> ret;
   void hierholzer(string x) {
     while (! m[x].empty()) {
-      string y = *m[x].begin();
-      m[x].erase(m[x].begin());
+      string y = m[x].back();
+      m[x].pop_back();
       hierholzer(y);
     }
     ret.push_back(x);
   }
 public:
-  vector<string> findItinerary(vector<pair<string, string>> tickets) {
+  vector<string> findItinerary(vector<vector<string>> &tickets) {
+    sort(tickets.begin(), tickets.end(), greater<>());
     for (auto &x: tickets)
-      m[x.first].insert(x.second);
+      m[x[0]].push_back(x[1]);
     hierholzer("JFK");
     reverse(ret.begin(), ret.end());
     return ret;
@@ -26,10 +27,11 @@ public:
 
 class Solution {
 public:
-  vector<string> findItinerary(vector<pair<string, string>> tickets) {
-    unordered_map<string, multiset<string>> m;
+  vector<string> findItinerary(vector<vector<string>> &tickets) {
+    sort(tickets.begin(), tickets.end(), greater<>());
+    unordered_map<string, vector<string>> m;
     for (auto &x: tickets)
-      m[x.first].insert(x.second);
+      m[x[0]].push_back(x[1]);
     stack<string> st;
     vector<string> ret;
     st.push("JFK");
@@ -39,9 +41,8 @@ public:
         ret.push_back(x);
         st.pop();
       } else {
-        auto it = m[x].begin();
-        st.push(*it);
-        m[x].erase(it);
+        st.push(m[x].back());
+        m[x].pop_back();
       }
     }
     reverse(ret.begin(), ret.end());

@@ -13,7 +13,7 @@ public:
       REP(j, n) {
         int t = ul;
         ul = s[j];
-        s[j] = a[i][j] == '1' ? min(min(t, s[j-1]), s[j])+1 : 0;
+        s[j] = a[i][j] == '1' ? min(min(t, j?s[j-1]:0), s[j])+1 : 0;
         ans = max(ans, s[j]);
       }
     }

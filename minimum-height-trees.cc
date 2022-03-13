@@ -4,15 +4,15 @@
 
 class Solution {
 public:
-  vector<int> findMinHeightTrees(int n, vector<pair<int, int>>& edges) {
+  vector<int> findMinHeightTrees(int n, const vector<vector<int>>& edges) {
     vector<vector<int>> es(n);
     vector<int> d(n, 0);
     vector<bool> removed(n, false);
     for (auto &e: edges) {
-      es[e.first].push_back(e.second);
-      es[e.second].push_back(e.first);
-      d[e.first]++;
-      d[e.second]++;
+      es[e[0]].push_back(e[1]);
+      es[e[1]].push_back(e[0]);
+      d[e[0]]++;
+      d[e[1]]++;
     }
     vector<int> leaves;
     REP(i, n)

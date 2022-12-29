@@ -202,3 +202,107 @@ public:
     return ans;
   }
 };
+
+/// join-based tree algorithms, array
+namespace {
+unsigned xor32() {
+  static unsigned x = 1;
+  x ^= x << 13;
+  x ^= x >> 17;
+  return x ^= x << 5;
+}
+
+struct Treap { int lc, rc, pri, size, key; long sum; };
+unique_ptr<Treap[]> tr;
+
+void mconcat(int x) {
+  tr[x].size = tr[tr[x].lc].size + 1 + tr[tr[x].rc].size;
+  tr[x].sum = tr[tr[x].lc].sum + tr[x].key + tr[tr[x].rc].sum;
+}
+
+void split_by_rank(int x, int k, int &l, int &r) {
+  if (!x) return void(l = r = 0);
+  int s = tr[tr[x].lc].size;
+  if (k <= s) {
+    r = x;
+    split_by_rank(tr[x].lc, k, l, tr[x].lc);
+  } else {
+    l = x;
+    split_by_rank(tr[x].rc, k-s-1, tr[x].rc, r);
+  }
+  mconcat(x);
+}
+
+void split_by_key(int x, int key, int &l, int &r) {
+  if (!x) return void(l = r = 0);
+  if (key <= tr[x].key) {
+    r = x;
+    split_by_key(tr[x].lc, key, l, tr[x].lc);
+  } else {
+    l = x;
+    split_by_key(tr[x].rc, key, tr[x].rc, r);
+  }
+  mconcat(x);
+}
+
+int join(int x, int y) {
+  if (!x || !y) return x^y;
+  if (tr[x].pri < tr[y].pri) {
+    tr[x].rc = join(tr[x].rc, y);
+    mconcat(x);
+    return x;
+  } else {
+    tr[y].lc = join(x, tr[y].lc);
+    mconcat(y);
+    return y;
+  }
+}
+}
+
+class MKAverage {
+  int m, k, id, root = 0;
+  deque<int> q;
+
+  int erase(int x, int k) {
+    if (k == tr[x].key) {
+      int ret = join(tr[x].lc, tr[x].rc);
+      id = x;
+      return ret;
+    }
+    if (k < tr[x].key)
+      tr[x].lc = erase(tr[x].lc, k);
+    else
+      tr[x].rc = erase(tr[x].rc, k);
+    mconcat(x);
+    return x;
+  }
+public:
+  MKAverage(int m, int k) : m(m), k(k) { tr = make_unique<Treap[]>(m+1); }
+
+  void addElement(int num) {
+    int l, r;
+    id = q.size()+1;
+    if (q.size() == m) {
+      int key = q.front();
+      q.pop_front();
+      root = erase(root, key);
+    }
+    tr[id].lc = tr[id].rc = 0;
+    tr[id].pri = xor32();
+    tr[id].size = 1;
+    tr[id].key = tr[id].sum = num;
+    split_by_key(root, num, l, r);
+    root = join(l, join(id, r));
+    q.push_back(num);
+  }
+
+  int calculateMKAverage() {
+    if (q.size() < m) return -1;
+    int x, y, z;
+    split_by_rank(root, m-k, y, z);
+    split_by_rank(y, k, x, y);
+    int ans = tr[y].sum / (m-2*k);
+    root = join(x, join(y, z));
+    return ans;
+  }
+};

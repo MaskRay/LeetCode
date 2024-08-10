@@ -216,8 +216,9 @@ struct Treap { int lc, rc, pri, size, key; long sum; };
 unique_ptr<Treap[]> tr;
 
 void mconcat(int x) {
-  tr[x].size = tr[tr[x].lc].size + 1 + tr[tr[x].rc].size;
-  tr[x].sum = tr[tr[x].lc].sum + tr[x].key + tr[tr[x].rc].sum;
+  int l = tr[x].lc, r = tr[x].rc;
+  tr[x].size = tr[l].size + 1 + tr[r].size;
+  tr[x].sum = tr[l].sum + tr[x].key + tr[r].sum;
 }
 
 void split_by_rank(int x, int k, int &l, int &r) {
@@ -235,7 +236,7 @@ void split_by_rank(int x, int k, int &l, int &r) {
 
 void split_by_key(int x, int key, int &l, int &r) {
   if (!x) return void(l = r = 0);
-  if (key <= tr[x].key) {
+  if (key < tr[x].key) {
     r = x;
     split_by_key(tr[x].lc, key, l, tr[x].lc);
   } else {
@@ -247,52 +248,51 @@ void split_by_key(int x, int key, int &l, int &r) {
 
 int join(int x, int y) {
   if (!x || !y) return x^y;
-  if (tr[x].pri < tr[y].pri) {
+  if (tr[x].pri < tr[y].pri)
     tr[x].rc = join(tr[x].rc, y);
-    mconcat(x);
-    return x;
-  } else {
+  else {
     tr[y].lc = join(x, tr[y].lc);
-    mconcat(y);
-    return y;
+    x = y;
   }
+  mconcat(x);
+  return x;
 }
 }
 
 class MKAverage {
-  int m, k, id, root = 0;
+  int m, k, root = 0;
   deque<int> q;
-
-  int erase(int x, int k) {
-    if (k == tr[x].key) {
-      int ret = join(tr[x].lc, tr[x].rc);
-      id = x;
+  int erase(int &x, int key) {
+    if (tr[x].key == key) {
+      int ret = x;
+      x = join(tr[x].lc, tr[x].rc);
       return ret;
     }
-    if (k < tr[x].key)
-      tr[x].lc = erase(tr[x].lc, k);
+    int id;
+    if (key < tr[x].key)
+      id = erase(tr[x].lc, key);
     else
-      tr[x].rc = erase(tr[x].rc, k);
+      id = erase(tr[x].rc, key);
     mconcat(x);
-    return x;
+    return id;
   }
 public:
-  MKAverage(int m, int k) : m(m), k(k) { tr = make_unique<Treap[]>(m+1); }
+  MKAverage(int m, int k) : m(m), k(k) {
+    tr = make_unique<Treap[]>(m+1);
+  }
 
   void addElement(int num) {
-    int l, r;
-    id = q.size()+1;
+    int l, r, id = q.size()+1;
     if (q.size() == m) {
-      int key = q.front();
+      id = erase(root, q.front());
       q.pop_front();
-      root = erase(root, key);
     }
     tr[id].lc = tr[id].rc = 0;
     tr[id].pri = xor32();
     tr[id].size = 1;
     tr[id].key = tr[id].sum = num;
     split_by_key(root, num, l, r);
-    root = join(l, join(id, r));
+    root = join(join(l, id), r);
     q.push_back(num);
   }
 

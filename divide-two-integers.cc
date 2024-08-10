@@ -15,6 +15,8 @@ public:
         p -= q;
         r += 1 << c;
       }
-    return neg ? -r : r;
+    if (r == INT_MIN && !neg)
+      return INT_MAX;
+    return neg ? -(unsigned)r : r;
   }
 };

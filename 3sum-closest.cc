@@ -5,7 +5,7 @@ class Solution {
 public:
   int threeSumClosest(vector<int> &a, int target) {
     int n = a.size(), opt = INT_MAX, opts;
-    sort(a.begin(), a.end());
+    ranges::sort(a);
     REP(i, n) {
       int j = i+1, k = n-1, t = target-a[i];
       while (j < k) {
